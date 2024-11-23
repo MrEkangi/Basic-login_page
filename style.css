@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url(night-sky-stars-nebula.jpg);
+    background
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    width: 350px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e0a0a16;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #bb78eb50;
+    backdrop-filter: blur(3px);
+}
+
+.login-card h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.login-card .field {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #ACE4f5;
+    background: none;
+    border-radius: 6px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.login-card .field::placeholder {
+    color: aliceblue;
+}
+
+.forgot-password-link {
+    color: #fff;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+#login-btn {
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #ba59ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px; /* Corrected */
+}
+
+.register-text {
+    color: #fff;
+    text-decoration: none;
+    color: #ACE4f5; /* Combined the duplicate register-text selectors */
+}
